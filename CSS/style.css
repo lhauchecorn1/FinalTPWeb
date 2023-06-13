@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto-Mono';
+    text-align: left;
+}
+
+header {
+    background-color: #E69C69;
+    height: 75.90vh;
+    border-top: solid #196396;
+    border-bottom: solid #196396;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.text {
+    margin-left: 200px;
+}
+
+main > .container-fluid:nth-child(2) {
+    height: 50vh;
+}
+
+header , main {    padding: 0 8.33vw !important;}
+
+.navbar { background-color: white;}
+
+textarea { resize: none;}
+
+.modal-title { background-color: white; color: #E69C69 !important;
+padding: 0 10px  !important;}
+
+main > .container-fluid { height: 20vh;}
+
+header>div, main  .container-fluid > div, .carousel-inner, 
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item img  { 
+    height: 100%;
+    object-fit: cover;
+    border: solid black;
+    border-width: 1px;
+ }
+
+h1, h2 {
+    font-family: 'Oswald';
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    vertical-align: top;
+}
+
+h1, h3, header p {
+    line-height: 125%;
+}
+
+header p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.imgcube {
+    width: 500px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 16px;  
+    letter-spacing: 5px;
+}
+
+header a {
+    font-size: 20px;
+    width: 37.5%;
+    display: block;
+    padding: 11.5px 0;
+    border-radius: 5px;
+    background-color: #E69C69;
+}
+
+footer > p {
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.youtube {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 40px
+    }
+}
